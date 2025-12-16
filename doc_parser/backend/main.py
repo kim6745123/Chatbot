@@ -36,7 +36,7 @@ app = FastAPI(title="RAG Backend (Chroma + OpenAI)", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173",  "https://chatbot-f7phy409c-seulbees-projects.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
