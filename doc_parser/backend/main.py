@@ -36,7 +36,11 @@ app = FastAPI(title="RAG Backend (Chroma + OpenAI)", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173",  "https://chatbot-f7phy409c-seulbees-projects.vercel.app"],
+    allow_origins=[
+        "http://localhost:5173",  # 로컬 개발용
+        "https://chatbot-56i4idcwf-seulbees-projects.vercel.app",  # 지금 prod 도메인(예시)
+    ],
+    allow_origin_regex=r"^https:\/\/.*\.vercel\.app$",  # ✅ Vercel 프리뷰/프로덕션 도메인 전부 허용
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
