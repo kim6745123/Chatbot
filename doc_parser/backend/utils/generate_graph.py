@@ -27,8 +27,8 @@ def generate_base64_graph(data: dict):
     )
 
     # ✅ 제목 / 축 글자 색상 밝게
-    ax.set_title("경쟁률", fontsize=14, fontweight="bold", pad=12, color="white")
-    ax.set_xlabel("연도", fontsize=12, color="white")
+    # ax.set_title("경쟁률", fontsize=14, fontweight="bold", pad=12, color="white")
+    # ax.set_xlabel("연도", fontsize=12, color="white")
     # ax.set_ylabel("경쟁률", fontsize=12, color="white")
 
     # ✅ 눈금 색상
