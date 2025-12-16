@@ -1,6 +1,6 @@
 from pathlib import Path
 
-OPENROUTER_API_KEY = "" 
+OPENROUTER_API_KEY = "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" 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 OPENROUTER_MODEL_NAME = "google/gemma-3-27b-it:free" 
 

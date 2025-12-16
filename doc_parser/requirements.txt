@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+
+openai
+python-dotenv
+
+chromadb
+numpy
+pandas
+openpyxl
+
+matplotlib
+
+pydantic
+sqlalchemy
+
+tqdm

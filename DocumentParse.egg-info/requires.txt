@@ -146,7 +146,7 @@ python-mecab-ko-dic==2.1.1.post2
 python-pptx==1.0.2
 pytz==2025.2
 pyxnat==1.6.3
-pyyaml==5.4.1
+pyyaml==6.0
 rapidfuzz==3.13.0
 rdflib==7.1.4
 referencing==0.36.2
